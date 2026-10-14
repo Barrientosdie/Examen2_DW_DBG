@@ -12,8 +12,8 @@ guardan en listas y variables, por lo que se pierden al reiniciar el servidor.
 
 1. Clona el repositorio y entra a la carpeta:
    ```
-   git clone https://github.com/TU-USUARIO/NOMBRE-DEL-REPO.git
-   cd NOMBRE-DEL-REPO
+   git clone https://github.com/Barrientosdie/Examen2_DW_DBG.git
+   cd Examen2_DW_DBG
    ```
 2. Instala las dependencias:
    ```
