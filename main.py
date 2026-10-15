@@ -13,8 +13,8 @@ app = FastAPI(
 
 class ClienteIn(BaseModel):
     model_config = ConfigDict(str_strip_whitespace=True)
-    nombre_cliente: str = Field(..., min_length=1, max_length=100, examples=["Juan Pérez"])
-    direccion: str = Field(..., min_length=1, max_length=200, examples=["Av. Universidad 123, San Nicolás"])
+    nombre_cliente: str = Field(..., min_length=1, max_length=100, examples=["Pedro Picapiedra"])
+    direccion: str = Field(..., min_length=1, max_length=200, examples=["Av. Diego Diaz, San Nicolás"])
 
 
 class Cliente(ClienteIn):
@@ -42,7 +42,7 @@ class Venta(BaseModel):
 
 
 class CostoIn(BaseModel):
-    costo_pollo: float = Field(..., ge=0, examples=[380.00])
+    costo_pollo: float = Field(..., ge=0, examples=[400.00])
 
 
 clientes: list[Cliente] = []
